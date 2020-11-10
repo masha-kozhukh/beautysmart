@@ -1,0 +1,137 @@
+.top__item-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background: #E5E5E5;
+   
+}
+
+.top__item-list{
+    padding: 15px 30px;
+}
+
+.top__item-list:last-child{
+    padding-right: 0px;
+}
+.top__item-list:first-child{
+    padding-left: 0px;
+}
+
+.top__item-link{
+    line-height: 16px;
+    transition: .3s all;
+}
+
+.top__item-link:hover,
+.top__item-link:focus,
+.top__item-link:active{
+    border-bottom: 2px solid #302626;
+    padding-bottom: 4px;
+    opacity: .7;
+}
+
+
+.header__main-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.logo__link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo__text{
+    padding-left: 20px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+}
+
+.text__search{
+    
+    background-color: #E5E5E5 ;
+    border-radius:25px;
+    border-color: transparent;
+    min-height: 40px;
+    min-width: 250px;
+    outline: transparent;
+    transition: .3s all;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #302626;
+
+}
+
+.text__search:hover{
+ opacity: 0.7;
+}
+.text__search input{
+    position: relative;
+}
+.search__icon{
+    position: absolute;
+    padding-right: 250px;
+}
+
+.contact__phone{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+    padding-right: 30px;
+}
+
+.contact__back-phone{
+    border: 2px solid #F13C6E;
+    border-radius: 25px;
+    padding: 12px 26px;
+    transition: 0.3s all;
+}
+
+.contact__back-phone:hover,
+.contact__back-phone:focus,
+.contact__back-phone:active{
+    /* background-color: #E5E5E5; */
+    color: #F13C6E;
+    font-size: 18px;
+
+}
+.header__footer-item{
+    background-color: #ffffff;
+}
+.footer__item-service{
+    /* margin-top: 30px; */
+    padding: 30px 0px;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service__list {
+    padding-right: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+}
+
+.service__link{
+    transition: .3s all;
+}
+.service__link:hover{
+    opacity: .7;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 4px;
+}
+
+

@@ -1,0 +1,155 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.special__suggestion{
+    background-color: #E5E5E5;
+    color: #000;
+    height: auto;
+    padding: 0px 0px 70px 0px;
+}
+.suggestion__title{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+   
+}
+
+
+
+ .suggestion__card{
+    
+    width: 255px ; 
+    max-height: 370px ;
+    background-color: #ffffff;
+  
+}
+.suggestion__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 50px;
+    margin-bottom: 10px;
+} 
+
+.suggestion__description{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 200px;
+    color: #333333;
+}
+.suggestion__price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.suggestion__buy{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    border-radius: 25px;
+    border:1px solid #F13C6E;
+    background-color:  #F13C6E;
+    padding: 10px 25px;
+    transition: .3s;
+
+}
+
+.suggestion__buy:hover{
+    opacity: .7;
+    font-size: 15px;
+}
+
+
+
+.cards__delivery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 100px 0px;
+
+}
+
+
+
+.delivery__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #F13C6E;
+    width: 49%;
+    
+    padding: 30px 40px ;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.delivery__content{
+   width: 250px;
+   
+}
+
+.delivery__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.delivery__email{
+    margin-top: 25px;
+    padding: 9px 25px;
+    outline: none;
+    border: transparent;
+    border-radius: 25px;
+    background-color:#FFFFFF ;
+
+
+}
+.delivery__email ::placeholder{
+
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    text-align: center;
+    
+    color: #C4C4C4;
+    
+}
+
+.adv__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.adv__card{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    width: 25%;
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
